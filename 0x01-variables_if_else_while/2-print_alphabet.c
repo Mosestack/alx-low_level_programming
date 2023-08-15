@@ -1,18 +1,17 @@
 #include <stdio.h>
 /**
- * main - a program that prints lowercase alphabets
+ * main - Entry point
  * Return: 0 (Success)
  */
-
 int main(void)
 {
-	char c;
+	char ch;
 
-	c = 'a';
+	ch = 'a';
 	while
-		(c <= 'Z') {
-			putchar(c);
-				c++;
+		(ch <= 'z') {
+		putchar(ch);
+		ch++;
 		}
 	putchar('\n');
 	return (0);
