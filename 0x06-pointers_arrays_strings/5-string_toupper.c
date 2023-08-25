@@ -1,10 +1,10 @@
 #include "main.h"
 /**
- * string_toupper - converting lowercase string to uppercase
+ * *string_toupper - converting lowercase string to uppercase
  * @x: string param
  * Return: string
  */
-char *string_toupper(char *)
+char *string_toupper(char *x)
 {
 	int i = 0;
 
