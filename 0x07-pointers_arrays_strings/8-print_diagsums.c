@@ -1,7 +1,7 @@
 #include "main.h"
 #include <stdio.h>
 /**
- * print_diagsum - sum of two diagonals of a square
+ * print_diagsums - sum of two diagonals of a square
  * matrix of integers
  * @a: The matrix of integers
  * @size: The size of integers
