@@ -19,7 +19,7 @@ int _strlen_recursion(char *s)
  * @right: largest iterator
  * Return: integer
  */
-int compare_string(char*s, int left, int right)
+int compare_string(char *s, int left, int right)
 {
 	if (*(s + left) == *(s + right))
 	{
@@ -31,7 +31,7 @@ int compare_string(char*s, int left, int right)
 }
 /**
  * is_palindrome - determines if a string is a palindrome
- * @s - string as palindrome
+ * @s: string as a palindrome
  * Return: 1 if it's palindrome else 0 if it's not
  */
 int is_palindrome(char *s)
