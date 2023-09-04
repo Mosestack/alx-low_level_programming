@@ -1,7 +1,8 @@
 #include "main.h"
 /**
  * rev_string - a function that prints a reversed string
- * @s: character of reversed string
+ * @s: String to be reversed
+ * character of reversed string
  * Return: mothing (success)
  */
 void rev_string(char *s)
@@ -10,9 +11,10 @@ void rev_string(char *s)
 	char temp;
 
 	length = 0;
+
 	while (s[length] != '\0')
 	{
-		 length++;
+		length++;
 	}
 
 	for (i = 0; i < length / 2; i++)
